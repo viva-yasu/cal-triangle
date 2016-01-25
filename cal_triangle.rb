@@ -7,13 +7,10 @@ class CalTriangle
   @yc
   attr_reader :area
 
-  def initialize(xa, ya, xb, yb, xc, yc)
-    @xa = xa
-    @ya = ya
-    @xb = xb
-    @yb = yb
-    @xc = xc
-    @yc = yc
+  def initialize(plot)
+    @xa, @ya = plot[:a]
+    @xb, @yb = plot[:b]
+    @xc, @yc = plot[:c]
     _cal_area_triangle
   end
 
