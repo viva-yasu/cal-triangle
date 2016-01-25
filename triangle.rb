@@ -1,4 +1,4 @@
-class CalTriangle
+class Triangle
   @xa
   @ya
   @xb
