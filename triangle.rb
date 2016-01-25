@@ -1,10 +1,5 @@
 class Triangle
-  @xa
-  @ya
-  @xb
-  @yb
-  @xc
-  @yc
+
   attr_reader :area
 
   def initialize(plot)
